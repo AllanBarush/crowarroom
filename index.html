@@ -58,6 +58,35 @@ ol.temas .tg{display:block;font-family:'Lora',Georgia,serif;font-style:italic;co
 .abs p{font-size:16.5px;margin-top:18px;color:var(--ink)}.abs p b{color:var(--title)}
 .hl{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:30px}.hl .h{border:1px solid var(--rule);background:var(--card);padding:18px 20px}.hl .h b{font-family:'Poppins',Arial,sans-serif;color:var(--acc);font-weight:700;font-size:13px;display:block;margin-bottom:6px}.hl .h span{font-size:14.5px;color:var(--ink)}@media(max-width:700px){.hl{grid-template-columns:1fr}}
 ul.dir{list-style:none;margin-top:24px}ul.dir li{padding:10px 0 10px 26px;position:relative;font-size:15.5px;border-bottom:1px solid var(--rule)}ul.dir li::before{content:"";position:absolute;left:2px;top:19px;width:8px;height:8px;background:var(--acc);border-radius:50%}
+</style>
+<style>
+/* ==== Temario extendido del libro CRO ==== */
+.tem-grid{display:grid;grid-template-columns:1.5fr 1fr;gap:26px;margin-top:8px}
+@media(max-width:820px){.tem-grid{grid-template-columns:1fr}}
+.tem-h{font-family:'Poppins',Arial,sans-serif;font-size:12px;font-weight:600;
+  letter-spacing:.24em;text-transform:uppercase;color:var(--acc);margin:0 0 16px}
+.tem-sem{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px}
+.tem-sem li{display:flex;gap:12px;align-items:flex-start;background:var(--card);
+  border:1px solid rgba(181,163,211,.18);border-radius:10px;padding:12px 15px;
+  font-size:14.5px;line-height:1.6;color:var(--ink)}
+.tw{flex:none;font-family:'Poppins',Arial,sans-serif;font-weight:700;font-size:11px;
+  letter-spacing:.08em;color:#170D30;background:var(--acc);border-radius:6px;
+  padding:3px 8px;margin-top:2px}
+.tem-lado{display:flex;flex-direction:column;gap:14px}
+.tem-cap{background:linear-gradient(160deg,rgba(181,163,211,.16),rgba(124,92,191,.06));
+  border:1px solid rgba(181,163,211,.40);border-radius:12px;padding:16px 18px}
+.tem-cap-k{font-family:'Poppins',Arial,sans-serif;font-size:10.5px;font-weight:700;
+  letter-spacing:.22em;text-transform:uppercase;color:var(--acc)}
+.tem-cap-t{font-family:'Poppins',Arial,sans-serif;font-size:17px;font-weight:700;
+  color:var(--title);margin:6px 0 8px}
+.tem-cap p{font-size:13.5px;line-height:1.65;color:var(--ink);margin:0}
+.tem-meta{background:var(--card);border:1px solid rgba(234,228,218,.10);
+  border-radius:10px;padding:13px 15px;font-size:13.5px;line-height:1.65;color:var(--soft)}
+.tem-meta b{display:block;font-family:'Poppins',Arial,sans-serif;font-size:10.5px;
+  font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--ink);margin-bottom:5px}
+.tem-meta ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px}
+.tem-meta li{padding-left:14px;position:relative}
+.tem-meta li:before{content:"\00b7";position:absolute;left:1px;color:var(--acc);font-weight:700}
 </style></head><body>
 <header class="hero">
  <div class="serie">RiskMathics Financial Institute · Curso Ejecutivo</div>
@@ -80,14 +109,171 @@ ul.dir{list-style:none;margin-top:24px}ul.dir li{padding:10px 0 10px 26px;positi
 
 <section class="sec" id="temario"><div class="wrap">
  <div class="kicker">Temario</div><h2 class="sec-title">Qu&eacute; vas a dominar.</h2>
- <p class="sec-sub">Sesiones en vivo con práctica aplicada.</p>
- <ol class="temas">
-  <li>Briefing de la institución, su balance y su mapa de riesgos.</li>
-  <li>Crisis multi-etapa: shock de mercado → estrés de liquidez → duda de capital → evento ciber/reputacional.</li>
-  <li>Toma de decisiones integrada y bajo presión de tiempo.</li>
-  <li>Activación de recovery y comunicación a stakeholders.</li>
-  <li>Defensa ante el Consejo y el regulador.</li>
- </ol>
+ <p class="sec-sub">Integrar TODO el programa en una simulación estratégica de crisis: los equipos operan como la función de riesgos completa de una institución bajo una crisis multi-riesgo que evoluciona, tomando y defendiendo decisiones ante el Consejo y el regulador.</p>
+ <div class="tem-grid">
+  <div><h3 class="tem-h">Contenidos</h3>
+   <ol class="tem-sem"><li><span class="tw">01</span><span>Briefing de la institución, su balance y su mapa de riesgos.</span></li><li><span class="tw">02</span><span>Crisis multi-etapa: shock de mercado a estrés de liquidez a duda de capital a evento ciber/reputacional.</span></li><li><span class="tw">03</span><span>Toma de decisiones integrada y bajo presión de tiempo.</span></li><li><span class="tw">04</span><span>Activación de recovery y comunicación a stakeholders.</span></li><li><span class="tw">05</span><span>Defensa ante el Consejo y el regulador.</span></li><li><span class="tw">06</span><span>Evaluación 360: técnica + ejecutiva + liderazgo.</span></li><li><span class="tw">07</span><span>Debrief, lecciones aprendidas y certificación.</span></li></ol></div>
+  <aside class="tem-lado">
+   <div class="tem-cap"><div class="tem-cap-k">Capstone del m&oacute;dulo</div>
+    <div class="tem-cap-t">&ldquo;CRO War Room Simulation&rdquo;</div><p>desempeño integral del equipo a lo largo de una crisis multi-etapa, evaluado 360°.
+Dinámica paso a paso:
+1) (Organizacional) Equipos finales (rotación consolidada del programa).
+2) (Técnico) Reciben la institución y la crisis inicial.
+3) (Integración) Durante las 6 sesiones la crisis escala por etapas; cada etapa exige decisión + defensa.
+4) (Defensa) Presentan ante “Consejo/regulador” en cada etapa; evaluación integral y cierre/certificación del programa.
+ GLOSARIO DE ACRÓNIMOS · Definiciones para consulta rápida
+Todos los acrónimos usados en los 25 módulos, en orden alfabético. Referencia “antipendejo” para alumnos, faculty y material de difusión.
+3LOD: Three Lines of Defense (Tres Líneas de Defensa)
+ALCO: Asset-Liability Committee (Comité de Activos y Pasivos)
+ALM: Asset-Liability Management (Administración de Activos y Pasivos)
+AML: Anti-Money Laundering (Prevención de Lavado de Dinero)
+AUC: Area Under the Curve (área bajo la curva ROC)
+Banxico: Banco de México
+BCBS: Basel Committee on Banking Supervision (Comité de Basilea)
+BCP: Business Continuity Plan (Plan de Continuidad de Negocio)
+BEL: Best Estimate of Liabilities (Mejor Estimación de Pasivos)
+BIS: Bank for International Settlements (Banco de Pagos Internacionales)
+BNPL: Buy Now Pay Later (Compra Ahora, Paga Después)
+BoE / BoJ: Bank of England / Bank of Japan
+BRRD: Bank Recovery and Resolution Directive (UE)
+CBDC: Central Bank Digital Currency (Moneda Digital de Banco Central)
+CCAR: Comprehensive Capital Analysis and Review (EE.UU.)
+CCF: Credit Conversion Factor (Factor de Conversión Crediticia)
+CCR: Counterparty Credit Risk (Riesgo de Contraparte)
+CDS: Credit Default Swap
+CET1: Common Equity Tier 1 (Capital ordinario de nivel 1)
+CFP: Contingency Funding Plan (Plan de Financiamiento de Contingencia)
+CFT: Combating the Financing of Terrorism
+CNBV: Comisión Nacional Bancaria y de Valores
+CNSF: Comisión Nacional de Seguros y Fianzas
+CONSAR: Comisión Nacional del Sistema de Ahorro para el Retiro
+COSO: Committee of Sponsoring Organizations of the Treadway Commission
+CRO: Chief Risk Officer (Director de Administración de Riesgos)
+CS01: Credit Spread Sensitivity (01)
+CSA: Credit Support Annex (Anexo de Soporte Crediticio)
+CSR: Credit Spread Risk (Riesgo de Spread de Crédito)
+CSRD: Corporate Sustainability Reporting Directive (UE)
+CVA: Credit Valuation Adjustment (Ajuste de Valuación por Crédito)
+CVaR: Conditional Value at Risk
+DeFi: Decentralized Finance (Finanzas Descentralizadas)
+DFAST: Dodd-Frank Act Stress Testing
+DORA: Digital Operational Resilience Act (UE)
+DPD: Days Past Due (Días de Atraso)
+DR: Disaster Recovery (Recuperación ante Desastres)
+DRC: Default Risk Charge
+DV01: Dollar Value of a Basis Point
+DVA: Debit Valuation Adjustment
+EAD: Exposure at Default (Exposición al Incumplimiento)
+EBA: European Banking Authority
+ECB: European Central Bank (Banco Central Europeo)
+ECL: Expected Credit Loss (Pérdida Crediticia Esperada)
+EDA: Exploratory Data Analysis (Análisis Exploratorio de Datos)
+EL / UL: Expected Loss / Unexpected Loss (Pérdida Esperada / No Esperada)
+EPE: Expected Positive Exposure
+ERM: Enterprise Risk Management (Administración Integral de Riesgos)
+ES: Expected Shortfall (Pérdida Esperada en la Cola)
+ESG: Environmental, Social &amp; Governance
+EVE: Economic Value of Equity (Valor Económico del Capital)
+EWI / EWS: Early Warning Indicator / System (Alerta Temprana)
+EWMA: Exponentially Weighted Moving Average
+FAIR: Factor Analysis of Information Risk
+FATF: Financial Action Task Force (GAFI)
+FCA: Financial Conduct Authority (UK)
+FED: Federal Reserve System (Reserva Federal de EE.UU.)
+FMI: Fondo Monetario Internacional
+FRTB: Fundamental Review of the Trading Book
+FSB: Financial Stability Board (Consejo de Estabilidad Financiera)
+FTP: Funds Transfer Pricing (Precio de Transferencia de Fondos)
+FVA: Funding Valuation Adjustment
+FX: Foreign Exchange (Divisas)
+GARCH: Generalized Autoregressive Conditional Heteroskedasticity
+GBM: Gradient Boosting Machine
+GenAI: Generative Artificial Intelligence (IA Generativa)
+GIRR: General Interest Rate Risk
+GRC: Governance, Risk &amp; Compliance
+HQLA: High-Quality Liquid Assets (Activos Líquidos de Alta Calidad)
+IAM: Identity &amp; Access Management (Gestión de Identidad y Accesos)
+ICAAP: Internal Capital Adequacy Assessment Process
+ICS: Insurance Capital Standard
+IFRS 9: International Financial Reporting Standard 9
+ILAAP: Internal Liquidity Adequacy Assessment Process
+ILST: Internal Liquidity Stress Testing
+IM / VM: Initial Margin / Variation Margin
+IMA: Internal Models Approach (Enfoque de Modelos Internos)
+IOSCO: International Organization of Securities Commissions
+IPAB: Instituto para la Protección al Ahorro Bancario (México)
+IPV: Independent Price Verification
+IRB: Internal Ratings-Based Approach
+IRRBB: Interest Rate Risk in the Banking Book
+IRS: Interest Rate Swap
+ISDA: International Swaps and Derivatives Association
+ISSB: International Sustainability Standards Board
+ITF: Institución de Tecnología Financiera (México)
+KCI: Key Control Indicator (Indicador Clave de Control)
+KRD: Key Rate Duration
+KRI: Key Risk Indicator (Indicador Clave de Riesgo)
+KVA: Capital Valuation Adjustment
+LCR: Liquidity Coverage Ratio (Coeficiente de Cobertura de Liquidez)
+LGD: Loss Given Default (Severidad de la Pérdida)
+LIME: Local Interpretable Model-agnostic Explanations
+LLM: Large Language Model (Modelo de Lenguaje de Gran Escala)
+LOLR: Lender of Last Resort (Prestamista de Última Instancia)
+MBS: Mortgage-Backed Securities
+MFA: Multi-Factor Authentication (Autenticación Multifactor)
+MiCA: Markets in Crypto-Assets Regulation (UE)
+MLOps: Machine Learning Operations
+MREL: Minimum Requirement for Own Funds and Eligible Liabilities
+MRM: Model Risk Management (Administración de Riesgo de Modelo)
+MTM: Mark-to-Market (Valuación a Mercado)
+MVA: Margin Valuation Adjustment
+NGFS: Network for Greening the Financial System
+NII: Net Interest Income (Margen Financiero)
+NIST: National Institute of Standards and Technology
+NMD: Non-Maturing Deposits (Depósitos sin Vencimiento)
+NMRF: Non-Modellable Risk Factors
+NPL: Non-Performing Loan (Crédito en Cartera Vencida)
+NSFR: Net Stable Funding Ratio (Coeficiente de Financiamiento Estable Neto)
+OFAC: Office of Foreign Assets Control (EE.UU.)
+ORSA: Own Risk and Solvency Assessment
+P&amp;L: Profit &amp; Loss (Pérdidas y Ganancias)
+PCAF: Partnership for Carbon Accounting Financials
+PD: Probability of Default (Probabilidad de Incumplimiento)
+PFE: Potential Future Exposure
+PLA: P&amp;L Attribution
+PONV: Point of Non-Viability (Punto de No Viabilidad)
+PSI: Population Stability Index
+RAF: Risk Appetite Framework (Marco de Apetito de Riesgo)
+RAS: Risk Appetite Statement (Declaración de Apetito de Riesgo)
+RCSA: Risk and Control Self-Assessment (Autoevaluación de Riesgos y Controles)
+ROC: Receiver Operating Characteristic
+RPO / RTO: Recovery Point / Time Objective
+RRAO: Residual Risk Add-On
+RRP: Recovery &amp; Resolution Plan
+RST: Reverse Stress Testing
+RWA: Risk-Weighted Assets (Activos Ponderados por Riesgo)
+SA: Standardized Approach (Enfoque Estandarizado)
+SBM: Sensitivities-Based Method
+SCR: Solvency Capital Requirement (Requerimiento de Capital de Solvencia)
+SHAP: SHapley Additive exPlanations
+SICR: Significant Increase in Credit Risk
+SIEM: Security Information and Event Management
+SMCR: Senior Managers &amp; Certification Regime (UK)
+SOC: Security Operations Center
+SOFIPO / SOFOM: Sociedad Financiera Popular / de Objeto Múltiple (México)
+TCFD: Task Force on Climate-related Financial Disclosures
+TLAC: Total Loss-Absorbing Capacity (Capacidad Total de Absorción de Pérdidas)
+TRIM: Targeted Review of Internal Models (ECB)
+UAIR: Unidad de Administración Integral de Riesgos
+VaR: Value at Risk (Valor en Riesgo)
+VASP: Virtual Asset Service Provider
+VIX: Volatility Index (CBOE)
+WWR: Wrong-Way Risk (Riesgo de Correlación Adversa)
+XAI: Explainable Artificial Intelligence (IA Explicable)
+ · Fin del Temario Extendido · RiskMathics Financial Institute · CRO Executive Program 2026–2027 ·</p></div>
+   <div class="tem-meta"><b>&iquest;Para qui&eacute;n?</b><ul><li>Todos los participantes del programa.</li><li>Evaluado por faculty y CROs invitados.</li><li>Observadores: reguladores y patrocinadores.</li><li>Es la prueba integradora final y de certificación.</li></ul></div>
+   <div class="tem-meta"><b>Por qu&eacute; importa</b>Es la prueba final donde el participante demuestra que sabe SER CRO, no que tomó 25 módulos. Integra mercado, crédito, liquidez, capital, ciber, conducta, cultura y board reporting en una sola narrativa de guerra bajo presión.</div>
+  </aside>
+ </div>
 </div></section>
 
 <section class="sec"><div class="wrap">
